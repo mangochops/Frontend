@@ -1,3 +1,4 @@
+
 import React from "react";
 import Slider from "react-slick";
 import Heading from "../Products/Heading";
@@ -12,8 +13,10 @@ import {
   newArrSeven,
   newArrEight,
 } from "../../../assets/images/index";
-import SampleNextArrow from "./SampleNextArrow";
-import SamplePrevArrow from "./SamplePrevArrow";
+import { SampleNextArrow, SamplePrevArrow } from "./../CustomArrows";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 const NewArrivals = () => {
   const settings = {
@@ -50,6 +53,7 @@ const NewArrivals = () => {
       },
     ],
   };
+
   return (
     <div className="w-full pb-16">
       <Heading heading="New Arrivals" />
@@ -111,7 +115,7 @@ const NewArrivals = () => {
         </div>
         <div className="px-2">
           <Product
-            _id="100005"
+            _id="100006"
             img={newArrSix}
             productName="North Face Hoodies"
             price="60.00"
@@ -122,7 +126,7 @@ const NewArrivals = () => {
         </div>
         <div className="px-2">
           <Product
-            _id="100005"
+            _id="100007"
             img={newArrSeven}
             productName="Hublot Watch for men"
             price="60.00"
@@ -131,10 +135,9 @@ const NewArrivals = () => {
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
         </div>
-
         <div className="px-2">
           <Product
-            _id="100005"
+            _id="100008"
             img={newArrEight}
             productName="H&M Shirt"
             price="60.00"

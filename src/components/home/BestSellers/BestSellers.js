@@ -10,6 +10,7 @@ import {
 } from "../../../assets/images/index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SampleNextArrow, SamplePrevArrow } from "./../CustomArrows";
 
 const BestSellers = () => {
   const settings = {
@@ -17,6 +18,8 @@ const BestSellers = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1025,
@@ -99,3 +102,4 @@ const BestSellers = () => {
 };
 
 export default BestSellers;
+
