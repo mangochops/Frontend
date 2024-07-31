@@ -14,26 +14,26 @@ const ShoesCategory = () => {
   );
   const dispatch = useDispatch();
 
-    const category = [
+  const category = [
     {
       _id: 9006,
-      title: "SUV",
+      title: "Boots",
     },
     {
       _id: 9007,
-      title: "4*4",
+      title: "Leather",
     },
     {
       _id: 9008,
-      title: "Coupe",
+      title: "Sandals",
     },
     {
       _id: 9009,
-      title: "Saloon",
+      title: "Sneakers",
     },
     {
       _id: 9010,
-      title: "Van",
+      title: "Kids",
     },
   ];
 

@@ -14,32 +14,45 @@ const Brand = () => {
   const brands = [
     {
       _id: 900,
-      title: "BMW",
+      title: "Adidas",
     },
     {
       _id: 901,
-      title: "Mercedes Benz",
+      title: "Clarks",
     },
     {
       _id: 902,
-      title: "Volkswagen",
+      title: "Converse",
     },
 
     {
       _id: 903,
-      title: "Toyota",
+      title: "Fendi",
     },
     {
       _id: 904,
-      title: "Nissan",
+      title: "Nike",
     },
     {
       _id: 905,
-      title: "Audi",
+      title: "North Face",
     },
-
-   
-
+    {
+      _id: 906,
+      title: "Puma",
+    },
+    {
+      _id: 907,
+      title: "Timberland",
+    },
+    {
+      _id: 908,
+      title: "Tommy Hilifiger",
+    },
+    {
+      _id: 909,
+      title: "Vans",
+    },
   ];
 
   const handleToggleBrand = (brand) => {

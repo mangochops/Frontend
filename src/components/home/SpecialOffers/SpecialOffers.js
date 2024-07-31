@@ -3,12 +3,14 @@ import Slider from "react-slick";
 import Heading from "../Products/Heading";
 import Product from "../Products/Product";
 import {
-  newArrOne,
-  newArrTwo,
-  newArrThree,
-  newArrFour,
-  newArrFive,
-
+  spfOne,
+  spfTwo,
+  spfThree,
+  spfFour,
+  spfFive,
+  spfSix,
+  spfSeven,
+  spfEight,
 } from "../../../assets/images/index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -57,8 +59,8 @@ const SpecialOffers = () => {
         <div className="px-2">
           <Product
             _id="100001"
-            img={newArrOne}
-            productName="BMW 740i"
+            img={spfOne}
+            productName="Nike dunk Low Retro"
             price="44.00"
             color="Black"
             badge={true}
@@ -68,8 +70,8 @@ const SpecialOffers = () => {
         <div className="px-2">
           <Product
             _id="100002"
-            img={newArrTwo}
-            productName="Audi A6"
+            img={spfTwo}
+            productName="Vans Off the Wall"
             price="250.00"
             color="Black"
             badge={true}
@@ -79,8 +81,8 @@ const SpecialOffers = () => {
         <div className="px-2">
           <Product
             _id="100003"
-            img={newArrThree}
-            productName="Mercedes Benz C200"
+            img={spfThree}
+            productName="Timberland"
             price="80.00"
             color="Mixed"
             badge={true}
@@ -90,8 +92,8 @@ const SpecialOffers = () => {
         <div className="px-2">
           <Product
             _id="100004"
-            img={newArrFour}
-            productName="Volkswagen Toureg"
+            img={spfFour}
+            productName="Nike Jordan"
             price="60.00"
             color="Mixed"
             badge={false}
@@ -101,15 +103,47 @@ const SpecialOffers = () => {
         <div className="px-2">
           <Product
             _id="100005"
-            img={newArrFive}
-            productName="MiniCooper"
+            img={spfFive}
+            productName="Puma by Rihanna"
             price="60.00"
             color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
         </div>
-
+        <div className="px-2">
+          <Product
+            _id="100006"
+            img={spfSix}
+            productName="Vans Classic"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100007"
+            img={spfSeven}
+            productName="Adidas Samba"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="100008"
+            img={spfEight}
+            productName="Timberland Boots"
+            price="60.00"
+            color="Mixed"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
       </Slider>
     </div>
   );

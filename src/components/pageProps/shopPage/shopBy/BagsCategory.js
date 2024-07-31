@@ -17,24 +17,21 @@ const BagsCategory = () => {
   const category = [
     {
       _id: 9006,
-      title: "SUV",
+      title: "Duffle Bag",
     },
     {
       _id: 9007,
-      title: "4*4",
+      title: "lunchpack",
     },
     {
       _id: 9008,
-      title: "Coupe",
+      title: "Handbags",
     },
     {
       _id: 9009,
-      title: "Saloon",
+      title: "Backpack",
     },
-    {
-      _id: 9010,
-      title: "Van",
-    },
+
   ];
 
   const handleToggleCategory = (category) => {
