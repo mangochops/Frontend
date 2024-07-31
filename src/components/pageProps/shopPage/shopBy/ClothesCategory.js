@@ -17,23 +17,23 @@ const ClothesCategory = () => {
   const category = [
     {
       _id: 9006,
-      title: "Hoodies",
+      title: "SUV",
     },
     {
       _id: 9007,
-      title: "Jackets",
+      title: "4*4",
     },
     {
       _id: 9008,
-      title: "Tshirt",
+      title: "Coupe",
     },
     {
       _id: 9009,
-      title: "Trousers",
+      title: "Saloon",
     },
     {
       _id: 9010,
-      title: "Shirts",
+      title: "Van",
     },
   ];
 

@@ -17,23 +17,23 @@ const AccessoriesCategory = () => {
   const category = [
     {
       _id: 9006,
-      title: "Belts",
+      title: "SUV",
     },
     {
       _id: 9007,
-      title: "Perfumes",
+      title: "4*4",
     },
     {
       _id: 9008,
-      title: "Earrings",
+      title: "Coupe",
     },
     {
       _id: 9009,
-      title: "Wallet",
+      title: "Saloon",
     },
     {
       _id: 9010,
-      title: "Watches",
+      title: "Van",
     },
   ];
 

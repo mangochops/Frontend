@@ -3,10 +3,11 @@ import Slider from "react-slick";
 import Heading from "../Products/Heading";
 import Product from "../Products/Product";
 import {
-  bestSellerOne,
-  bestSellerTwo,
-  bestSellerThree,
-  bestSellerFour,
+  newArrOne,
+  newArrTwo,
+  newArrThree,
+  newArrFour,
+  newArrFive
 } from "../../../assets/images/index";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,8 +56,8 @@ const BestSellers = () => {
         <div className="px-2">
           <Product
             _id="1011"
-            img={bestSellerOne}
-            productName="Clarks High Cut Boots"
+            img={newArrOne}
+            productName="BMW 740i"
             price="35.00"
             color="Black and White"
             badge={true}
@@ -66,8 +67,8 @@ const BestSellers = () => {
         <div className="px-2">
           <Product
             _id="1012"
-            img={bestSellerTwo}
-            productName="Converse"
+            img={newArrTwo}
+            productName="Audi A6"
             price="180.00"
             color="Gray"
             badge={false}
@@ -77,8 +78,8 @@ const BestSellers = () => {
         <div className="px-2">
           <Product
             _id="1013"
-            img={bestSellerThree}
-            productName="Nike Dunk Low"
+            img={newArrThree}
+            productName="Mercedes Benz C200"
             price="25.00"
             color="Mixed"
             badge={true}
@@ -88,8 +89,19 @@ const BestSellers = () => {
         <div className="px-2">
           <Product
             _id="1014"
-            img={bestSellerFour}
-            productName="Tommy Hilfiger"
+            img={newArrFour}
+            productName="Volkswagen Toureg"
+            price="220.00"
+            color="Black"
+            badge={false}
+            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          />
+        </div>
+        <div className="px-2">
+          <Product
+            _id="1014"
+            img={newArrFive}
+            productName="Mini Cuoper"
             price="220.00"
             color="Black"
             badge={false}

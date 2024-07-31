@@ -1,12 +1,12 @@
-import logo from "../../assets/images/Blacktext.png";
-import loader from "../../assets/images/Frame 25.png";
-import logoLight from "../../assets/images/whitetext.png";
+import logo from "../../assets/images/logo-white.png";
+import loader from "../../assets/images/logo-white.png";
+import logoLight from "../../assets/images/logo (2).png";
 import bannerImgOne from "./products/Frame 14.png";
 import bannerImgTwo from "./products/Frame 15.png";
 import bannerImgThree from "./products/Frame 16.png";
-import saleImgOne from "./sale/Collusion Unisex logo t-shirt in white logologo📌.jpeg";
-import saleImgTwo from "./sale/Frame 26(3).png";
-import saleImgThree from "./sale/Frame 29.png";
+import saleImgOne from "./sale/___ VW ID_3 CAMPAIGN ___ with Uwe Düttmann.jpeg";
+import saleImgTwo from "./Frame 30.png";
+import saleImgThree from "./Frame 31.png";
 // ============== Products Start here ====================
 
 // New Arrivals
@@ -16,10 +16,11 @@ import newArrThree from "./products/newArrival/1000657145.jpg";
 import newArrFour from "./products/newArrival/1000658484.jpg";  
 import newArrFive from "./products/newArrival/1000663554.jpg";
 
+// empty cart
+import emptyCart from "./emptyCart.png";
 
-
-
-
+// product of the year
+import productOfTheYear from "./JEEP.jpeg";
 
 
 export {
@@ -40,7 +41,9 @@ export {
   newArrFour,
   newArrFive,
   
+  emptyCart,
 
+  productOfTheYear,
   
 
   
